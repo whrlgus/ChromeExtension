@@ -32,3 +32,6 @@ for(i=0;i<x.length;++i){
 <p align="center">
 <img src="../images/resume.png" width="80%" />
 </p>
+
+
+2. input element를 찾는 방법이 너무 구리다. input 테그 앞에 존재하는 label의 text 값으로 원하는 input element를 찾아내자.
