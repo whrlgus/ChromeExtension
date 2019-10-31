@@ -17,7 +17,7 @@ document.getElementsByClassName('gLFyf gsfi')[0].value='자바스크립트';
 ```
 
 <p align="center">
-<img src="../images/googlemain.png" width="50%" />
+<img src="../images/googlemain.png" width="80%" />
 </p>
 
 
