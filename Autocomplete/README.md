@@ -3,7 +3,7 @@
 
 ### 해결해야할 과제
 
-###### 1. 웹페이지의 채우고자 하는 input 테그를 찾아 html injection 코드를 실행하여 원하는 내용으로 text를 채운다.
+#### 1. 웹페이지의 채우고자 하는 input 테그를 찾아 html injection 코드를 실행하여 원하는 내용으로 text를 채운다.
 
 - *다음과 같은 내용의 html input 테그가 있다. class 이름을 이용해 input 테그 element를 찾아 값을 대입한다.*
 ```html
@@ -35,4 +35,4 @@ for(i=0;i<x.length;++i){
 </p>
 
 
-###### 2. input element를 찾는 방법이 너무 구리다. input 테그 앞에 존재하는 label의 text 값으로 원하는 input element를 찾아내자.
+#### 2. input element를 찾는 방법이 너무 구리다. input 테그 앞에 존재하는 label의 text 값으로 원하는 input element를 찾아내자.
