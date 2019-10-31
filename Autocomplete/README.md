@@ -15,7 +15,8 @@ title="Search" value="" aria-label="Search" data-ved="0ahUKEwikgMzsv8HlAhWQzIsBH
 document.getElementsByClassName('gLFyf gsfi')[0].value='자바스크립트';
 
 ```
-![구글 검색 창](../images/googlemain.png?)
+
+<img src="../images/googlemain.png" width="200"/>
 
 
 + input 테그의 required attribute와 id 이용하여 원하는 element에 값을 대입하는 코드이다.
