@@ -11,16 +11,18 @@ jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false"
 autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" 
 title="Search" value="" aria-label="Search" data-ved="0ahUKEwikgMzsv8HlAhWQzIsBHbtiD_EQ39UDCAQ">
 ```
-다음은 input 테그 이름을 이용한 injection 코드이다.
+다음은 class 이름을 이용해 input 테그 element를 찾아 값을 대입하는 injection 코드이다.
 ``` js
 document.getElementsByClassName('gLFyf gsfi')[0].value='asdfㅈㄸ';
 
 ```
 
-
+2. input 테그의 required attribute와 id 이용하여 원하는 element에 값을 대입하는 코드이다.
+```js
 var x = document.getElementsByTagName("input");
 var i;
-var str="";
 for(i=0;i<x.length;++i){
-if(x[i].required&&x[i].id=='email')x[i].value='abc@a.c';
+  if(x[i].required&&x[i].id=='name')
+    x[i].value='홍길동';
 }
+```
