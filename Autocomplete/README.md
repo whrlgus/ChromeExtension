@@ -15,7 +15,6 @@ title="Search" value="" aria-label="Search" data-ved="0ahUKEwikgMzsv8HlAhWQzIsBH
 document.getElementsByClassName('gLFyf gsfi')[0].value='자바스크립트';
 
 ```
-
 <p align="center">
 <img src="../images/googlemain.png" width="80%" />
 </p>
@@ -26,15 +25,10 @@ document.getElementsByClassName('gLFyf gsfi')[0].value='자바스크립트';
 var x = document.getElementsByTagName("input");
 var i;
 for(i=0;i<x.length;++i){
-  if(x[i].required&&x[i].id=='name')
-    x[i].value='홍길동';
+  if(x[i].required&&x[i].id=='birthday')
+    x[i].value='19990101';
 }
 ```
-
-var x = document.getElementsByTagName("input");
-var i;
-for(i=0;i<x.length;++i){
-  if(x[i].required&&x[i].id=='birthday')
-    x[i].value='1992-06-12';
-}
-birthday
+<p align="center">
+<img src="../images/resume.png" width="80%" />
+</p>
